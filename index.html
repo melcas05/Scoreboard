@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Scrimba Basketball Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+       <div class="container01">
+            <h2 class="hometitle">HOME</h2>
+            <h1 class="score01" id="home-num">0</h1>
+            <div class="boxes01">
+                <button class="box01" onclick="boxclick01HOME()">+1</button>
+                <button class="box01" onclick="boxclick02HOME()">+2</button>
+                <button class="box01" onclick="boxclick03HOME()">+3</button> 
+        </div>
+        </div>
+       <div class="container02">
+            <h2 class="guesttitle">GUEST</h2>
+            <h1 class="score02" id="guest-num">0</h1>
+            <div class="boxes02">
+                <button class="box02" onclick="boxclick01GUEST()">+1</button>
+                <button class="box02" onclick="boxclick02GUEST()">+2</button>
+                <button class="box02" onclick="boxclick03GUEST()">+3</button>
+            </div>
+       </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
